@@ -1,1 +1,0 @@
-# yasashibp.github.io
