@@ -18,6 +18,17 @@ html{
 .badan {
     background-color: #1E1E1E;
 }
+
+
+/* NEW UPDATED */
+.skill{
+    display: flex;
+}
+.inside{
+    display: flex;
+    align-items: center;
+}
+
 /* NAVBAR */
 nav.navbar.navbar-expand-lg.fixed-top.my-0.px-2.px-md-4.pt-4.pt-lg-5 {
     z-index: 8;
@@ -875,5 +886,12 @@ filter: blur(300px);
         /* background-color: #489bc2ac; */
         border: 2px solid #489bc268;
         border-radius: 4px;
+    }
+    /* new Update */
+    .skill{
+        flex-direction: column;
+    }
+    .insideB{
+        display: block;
     }
         }
