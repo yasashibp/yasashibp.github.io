@@ -24,7 +24,7 @@ html{
 .skill{
     display: flex;
 }
-.inside{
+.insideB{
     display: flex;
     align-items: center;
 }
