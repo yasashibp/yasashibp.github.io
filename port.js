@@ -57,10 +57,14 @@ instagram.addEventListener('click', () => {
         window.open('https://www.instagram.com/yasashi_bp/', '_blank')})
 
     // VISIT WEB
-    const buttonVst = document.querySelector('.visitWeb')
+    const buttonVst = document.querySelector('.hanwaWeb')
     buttonVst.addEventListener('click', () => {
         window.open('https://hanwa-indonesia.co.id/', '_blank')})
-
+    
+      // calculator link
+      const btnCal =  document.querySelector('.btnCalculator')
+          btnCal.addEventListener('click', () => {
+        window.open('./build/index.html', '_blank')})
         // scroll effect
 const scrollElm = document.querySelectorAll(".scroll-element")
 
