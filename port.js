@@ -48,6 +48,10 @@ button.forEach((i,m) => {
 emailSide.addEventListener('click', () => {
     location.href ="mailto:yasashibriliantp@gmail.com"})
 
+
+// SOSMED LINK
+
+
 // instagram link
 const instagram = document.querySelector('.instagram-img')
 const igMOb = document.querySelector('.instagram-img-mob')
@@ -55,6 +59,27 @@ instagram.addEventListener('click', () => {
     window.open('https://www.instagram.com/yasashi_bp/', '_blank')})
     igMOb.addEventListener('click', () => {
         window.open('https://www.instagram.com/yasashi_bp/', '_blank')})
+
+// UPWORK link
+const upwork = document.querySelector('.upwork')
+const upMOb = document.querySelector('.upwork-mob')
+upwork.addEventListener('click', () => {
+    window.open('https://www.upwork.com/freelancers/~010a1616f71af0dea9', '_blank')})
+    upMOb.addEventListener('click', () => {
+        window.open('https://www.upwork.com/freelancers/~010a1616f71af0dea9', '_blank')})
+
+
+// GITHUB link
+const github = document.querySelector('.github')
+const gitMOb = document.querySelector('.github-mob')
+
+github.addEventListener('click', () => {
+    window.open('https://github.com/yasashibp', '_blank')})
+    gitMOb.addEventListener('click', () => {
+        window.open('https://github.com/yasashibp', '_blank')})
+
+
+
 
     // VISIT WEB
     const buttonVst = document.querySelector('.hanwaWeb')
@@ -64,7 +89,7 @@ instagram.addEventListener('click', () => {
       // calculator link
       const btnCal =  document.querySelector('.btnCalculator')
           btnCal.addEventListener('click', () => {
-        window.open('./build/index.html', '_blank')})
+        window.open('https://briliantp.web.app', '_blank')})
         // scroll effect
 const scrollElm = document.querySelectorAll(".scroll-element")
 

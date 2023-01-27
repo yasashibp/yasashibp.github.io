@@ -28,6 +28,25 @@ html{
     display: flex;
     align-items: center;
 }
+.ig-logo{
+    display: flex;
+    flex-direction: column;
+}
+.ig-logo a:first-child{
+    margin-bottom: 4px;
+}
+
+.ig-logo svg{
+    width: 25px;
+    cursor: pointer;
+}
+
+.sosmed {
+    gap: 8px;
+}
+.sosmed svg{
+    opacity: .8;
+}
 
 /* NAVBAR */
 nav.navbar.navbar-expand-lg.fixed-top.my-0.px-2.px-md-4.pt-4.pt-lg-5 {
@@ -826,6 +845,11 @@ filter: blur(300px);
 
 
 @media screen and (max-width: 991.5px) { 
+    /* NEW UPDATED */
+    div.skillImg{
+        display: none !important; 
+    }
+
     /* NAVBAR */
     .imgnya {
         width: 100%;
@@ -895,3 +919,9 @@ filter: blur(300px);
         display: block;
     }
         }
+
+@media screen and (min-width: 991.5px){
+    .skill{
+    display: none;
+    }
+}
